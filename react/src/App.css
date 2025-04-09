@@ -1,0 +1,81 @@
+#root {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.app-container {
+  width: 400px;
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.input-container {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+input {
+  flex: 1;
+  padding: 10px;
+  border: 2px solid #2ecc71; /* Teal border */
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #2ecc71; /* Teal button */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #27ae60; /* Slightly darker teal on hover */
+}
+
+.list-container {
+  border: 2px solid #2ecc71; /* Teal border */
+  padding: 10px;
+  border-radius: 4px;
+  background-color: #eafbff; /* Light teal background */
+  min-height: 100px;
+}
+
+ul {
+  list-style-type: disc; /* Use bullet points */
+  padding-left: 20px; /* Indent the list items */
+}
+
+li {
+  padding: 8px;
+  text-align: left;
+}
+
+p {
+  color: #888;
+  font-size: 14px;
+}
+
